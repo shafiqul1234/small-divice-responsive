@@ -1,0 +1,332 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Titillium Web', sans-serif;
+}
+section{
+  padding: 75px 0px;
+}
+p{
+  font-size: 17px;
+  line-height: 17px;
+  font-weight: 300;
+}
+.heading{
+font-size: 30px;
+font-weight: 600;
+text-transform: uppercase ;
+}
+
+.sub-heading{
+ text-transform: uppercase;
+ margin-top: 20px auto;
+ font-size: 25px;
+ font-weight: bold;
+ line-height: 35px;
+}
+.underline{
+border-top: 2px solid rgba(0, 0, 0, 0.316);
+width: 5%;
+margin: 10px auto;
+}
+.writing-part{
+ margin-bottom: 50px;
+}
+.box-part{
+  
+}
+.box{
+padding: 0px 25px;
+} 
+.btn{
+  width: 200px;
+  padding: 20px;
+  font-size: 17px;
+  line-height: 17px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  
+ }
+
+[class*="col-"] {
+    float: left;
+}
+
+  
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+[class*="col-"] {
+    float: left;
+
+  }
+  .row{
+    width: 100%;
+    float: left;
+  }
+  
+  
+.container{
+  width: 90%;
+  margin: auto;
+}
+
+/* header start here */
+header{
+  background:#87509c;
+  
+}
+ .navigation{
+ padding: 10px 0px;
+}
+.logo-part {
+
+}
+.menu-part {
+
+}
+.menu-part ul {
+ text-align: right;
+ padding: 6px 0px;
+}
+.menu-part li {
+  list-style: none;
+  display: inline-block;
+  margin: 0px 10px;
+}
+.menu-part li :hover{
+  background-color: rgba(0, 0, 0, 0.214);
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+.menu-part a {
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+}
+.hero-part{
+  padding: 150px 100px;
+  text-align: center;
+}
+ .hero-part h1 {
+  font-size: 45px;
+  line-height: 45px;
+  color: white;
+  
+}
+.hero-part button {
+  background: #eb7d4b;
+  color: white;
+  margin-top: 50px;
+  border-radius: 5px;
+}
+
+ /* header end here */
+
+ /* sarvice starte here */
+#sarvice{
+  background:#17c2a4;
+  color: #ffff;
+  text-align: center;
+}
+#sarvice .box img{
+  height: 130px;
+}
+/* sarvice end here */
+
+/* team start here? */
+#Team{
+  background: #e7f1f8;
+  color:black;
+  text-align: center;
+}
+.pt{
+  font-size: 20px;
+  color: #79d0ee;
+}
+.team-icon-box{
+  margin: 20px 0px;
+}
+.team-icon-box i{
+font-size: 17px;
+background-color: rgb(249, 250, 251);
+padding: 12px;
+width: 45px;
+border-radius: 100%;
+}
+#Team .box  {
+  margin-top: 20px;
+}
+.team-icon-box i:hover{
+  background-color: #039379;
+}
+/* team end here */
+
+/* skills start here */
+#skills{
+ background: #ffffff;
+ color: black;
+  text-align: center;
+}
+
+/* skills end here  */
+
+/* portfolio  start here*/
+#portfolio{
+  background: #ffdd99;
+  color:black;
+  text-align: center;
+}
+.portfolio-btn ul {
+  text-align: center;
+  padding: 6px 0px;
+}
+.portfolio-btn li {
+  list-style: none;
+  display: inline-block;
+  width: 70px;
+  border-radius: 5px;
+  margin: 20px 10px;
+  background-color: rgba(0, 0, 0, 0.136);
+}
+.portfolio-btn a{
+  font-size: 20px;
+  font-weight: 600;
+  color:black;
+}
+.portfolio-btn li :hover{
+  width: 80px;
+  background-color: #20b59e;
+  padding: 5px 20px;
+  border-radius: 10px;
+}
+#portfolio .box h3{
+ margin: 15px 0px;
+ color: black;
+}
+
+.btn2{
+background: #17c2a4;
+width: 200px;
+  padding: 10px;
+  font-size: 17px;
+  line-height: 17px;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+/* poeple start end */
+
+/* about start here  */
+#about-us{
+  background: #d74680;
+  color: #ffff;
+  text-align: center;
+}
+#about-us .box-part1{
+ margin-bottom: 100px;
+}
+#about-us .box h3{
+  margin-top: 10px;
+ }
+ #about-us .box1{
+  text-align: left;
+ }
+ /* Touch start here  */
+#touch{
+background: #3c5499;
+color: #ffff;
+  text-align: center;
+}
+form{
+  width: 60%;
+  margin: auto;
+}
+.form-part-one{
+margin-bottom: 20px;
+}
+input{
+  width: 100%;
+  padding: 10px;
+  background-color: #273a71;
+  color: white;
+}
+input[type="text"]{
+  width: 98%;
+  margin-right: 2%;
+}
+input[type="email"]{
+  width: 98%;
+  margin-left: 2%;
+}
+.form-part-two{
+
+}
+textarea{
+  width: 100%;
+  padding: 10px;
+  background-color: #273a71;
+  color: white;
+}
+input::placeholder,
+textarea::placeholder{
+  color: white;
+}
+
+.btn3{
+  background: #17c2a4;
+  width: 200px;
+  margin-top: 75px;
+  padding: 10px;
+  font-size: 17px;
+  line-height: 17px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  }
+  /* about end here  */
+
+  /* footer start */
+#footer{
+  background: #344b8e;
+  color: #ffff;
+  text-align: center;
+}
+.footer-menubar ul {
+  text-align: center;
+  padding: 6px 0px;
+}
+.footer-menubar li {
+  list-style: none;
+  display: inline-block;
+  width: 85px;
+  border-radius: 5px;
+  margin: 30px 20px;
+  background-color: rgba(0, 0, 0, 0.051);
+}
+.footer-menubar a{
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+}
+.footer-menubar li :hover{
+  width: 50px;
+  background-color: #8a3333;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+/* footer end here  */
+

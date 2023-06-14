@@ -1,0 +1,193 @@
+
+@media only screen and (max-width: 600px){
+    
+    img{
+        max-width: 100%;
+    }
+
+    section{
+        padding: 50px 0px;
+      }
+
+      p{
+        font-size: 15px;
+        line-height: 15px;
+        font-weight: 300;
+      }
+
+      .btn{
+        width: 200px;
+        padding: 20px;
+        }
+    .heading{
+    font-size: 25px;
+    }
+    .sub-heading{
+       margin-top: 10px auto;
+        font-size: 20px;
+       
+       }
+    
+   .underline{
+       width: 10%;
+   }
+   .writing-part{
+    margin-bottom: 35px;
+   }
+
+
+    [class*="col-s-"] {
+        float: left;
+    }
+    
+    .col-s-1 {
+        width: 8.33%;
+    }
+    .col-s-2 {
+        width: 16.66%;
+    }
+    .col-s-3 {
+        width: 25%;
+    }
+    .col-s-4 {
+        width: 33.33%;
+    }
+    .col-s-5 {
+        width: 41.66%;
+    }
+    .col-s-6 {
+    width: 50%;
+    }
+    .col-s-7 {
+        width: 58.33%;
+    }
+    .col-s-8{
+        width: 66.66%;
+    }
+    .col-s-9{
+        width: 75%;
+    }
+    .col-s-10{
+        width: 83.33%;
+    }
+    .col-s-11{
+        width: 91.66%;
+    }
+    .col-s-12{
+        width: 100%;
+    }
+
+    /* Header start here  */
+
+    header{
+        text-align: center;
+    }
+    .menu-part ul{
+        text-align: center;
+    }
+    .hero-part{
+        padding: 75px 25px;
+        text-align: center;
+      }
+      .hero-part h1 {
+        font-size: 25px;
+        line-height: 25px;
+    }
+    .hero-part button {
+        width: 125px;
+        padding: 8px;
+        font-size: 15px;
+        line-height: 15px;
+      }
+      
+      /* header end here  */
+
+      /* Sarvice starte here  */
+      #sarvice .box img{
+        height: 100px;
+        margin-top: 20px;
+      }
+      #sarvice .box h2{
+        font-size: 15px;
+      }
+      /* Team start here  */
+      #Team .box img{
+        height: 100px;
+       }
+      
+      .team-icon-box i{
+        font-size: 12px;
+        background-color: rgba(255, 255, 255, 0.941);
+        padding: 10px;
+        width: 30px;
+       
+        }
+      
+        /* Team end here  */
+
+        /* skills start here */
+        #skills .box img{
+            height: 100px;
+           
+          }
+          #skills .box h3{
+            font-size: 15px;
+            margin-bottom: 15px;
+           }
+        /* skill end here  */
+        /* Portfolio statr here  */
+        .portfolio-btn ul {
+            padding: 10px 0px;
+          }
+          .portfolio-btn li {
+             width: 60px;
+           
+          }
+          .portfolio-btn a{
+            font-size: 15px;
+           
+          }
+          #portfolio .box h3{
+            font-size: 13px;
+           
+           }
+           .btn2{
+            
+            width: 100px;
+              padding: 5px;
+              font-size: 12px;
+              line-height: 12px;
+             
+            }
+             /* Portfolio End here  */
+             /* About us start here  */
+             #about-us .box-part1{
+                margin-bottom: 25px;
+               }
+                /* contact start here  */
+              
+               .btn3{
+               
+                width: 100px;
+                margin-top: 50px;
+                padding: 8px;
+                font-size: 12px;
+                line-height: 12px;
+                
+                }
+                .footer-menubar li {
+                   
+                    width: 75px;
+                    padding: 5px;
+                    border-radius: 5px;
+                    margin: 15px 10px;
+                    
+                  }
+
+                .footer-menubar a{
+                    font-size: 15px;
+                    line-height: 15px;
+                    font-weight: 600;
+                    color: white;
+                  }
+}
